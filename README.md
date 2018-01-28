@@ -19,7 +19,6 @@ Test on TiTan X Pascal
 if you don't have permute layer yet, then put `permute_layer.hpp` into `CAFFE_ROOT/include/caffe/layers/`, put `permute_layer.cpp` and `permute_layer.cu` into `CAFFE_ROOT/src/caffe/layers/`
 if you don't have depthWise convolution layer yet, then do the same as permute layer for source files from [DepthWise Convolution layer](https://github.com/farmingyard/caffe-mobilenet)
 
-By default caffe 
-
+then you can safely change  [the line](https://github.com/BVLC/caffe/blob/bb4ffa4d440e8a9c452c410ad9db2ed7137c9f7d/include/caffe/blob.hpp#L140) in caffe sourece to `CHECK_LE(num_axes(), 5)`
 
 and then just do `make` under `CAFFE_ROOT/`

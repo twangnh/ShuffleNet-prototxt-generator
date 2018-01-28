@@ -7,7 +7,7 @@ farmingyard's implementation(https://github.com/farmingyard/ShuffleNet) of shuff
 Test on TiTan X Pascal
 
 shufflenet_0.25×_g3 input = 50*224*224
-
+![alt text](https://github.com/MrWanter/Efficient-ShuffleNet/blob/master/image.png)
 +-------------------------------+----------------------+----------------------+
 |   2  TITAN X (Pascal)    Off  | 0000:09:00.0     Off |                  N/A |
 | 28%   50C    P2    80W / 250W |   2363MiB / 12189MiB |     42%   E. Process |

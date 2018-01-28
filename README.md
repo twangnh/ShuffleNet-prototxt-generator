@@ -12,20 +12,20 @@ shufflenet_0.25×_g3 input = 50*224*224
 |   2  TITAN X (Pascal)    Off  | 0000:09:00.0     Off |                  N/A |
 | 28%   50C    P2    80W / 250W |   2363MiB / 12189MiB |     42%   E. Process |
 
-I0128 13:27:48.656941 32473 caffe.cpp:460] --------Total Time Convolution: 7.230897172910
-I0128 13:27:48.656952 32473 caffe.cpp:461] --------Total Time BatchNorm: 10.60147172910
-I0128 13:27:48.656965 32473 caffe.cpp:462] --------Total Time Scale: 2.980527172910
-I0128 13:27:48.656972 32473 caffe.cpp:463] --------Total Time ReLU: 1.21517172910
-I0128 13:27:48.656978 32473 caffe.cpp:464] --------Total Time Pooling: 0.5667077172910
-I0128 13:27:48.656985 32473 caffe.cpp:465] --------Total Time Permute: 1.536877172910
-I0128 13:27:48.656989 32473 caffe.cpp:466] --------Total Time ShuffleChannel: 0
-I0128 13:27:48.656996 32473 caffe.cpp:467] --------Total Time ConvolutionDepthwise: 0.8519497172910
-I0128 13:27:48.657001 32473 caffe.cpp:468] --------Total Time Split: 0.02986247172910
-I0128 13:27:48.657007 32473 caffe.cpp:469] --------Total Time Eltwise: 1.660027172910
-I0128 13:27:48.657013 32473 caffe.cpp:470] --------Total Time FullyConnected: 0.05816967172910
-I0128 13:27:48.657019 32473 caffe.cpp:471] --------Total Time SoftMax: 0.01597127172910
-I0128 13:27:48.657024 32473 caffe.cpp:475] Average Forward pass: 26.9364 ms.
-I0128 13:27:48.657032 32473 caffe.cpp:477] Average Backward pass: 57.718 ms.
+|I0128 13:27:48.656941 32473 caffe.cpp:460] --------Total Time Convolution: 7.230897172910
+|I0128 13:27:48.656952 32473 caffe.cpp:461] --------Total Time BatchNorm: 10.60147172910
+|I0128 13:27:48.656965 32473 caffe.cpp:462] --------Total Time Scale: 2.980527172910
+|I0128 13:27:48.656972 32473 caffe.cpp:463] --------Total Time ReLU: 1.21517172910
+|I0128 13:27:48.656978 32473 caffe.cpp:464] --------Total Time Pooling: 0.5667077172910
+|I0128 13:27:48.656985 32473 caffe.cpp:465] --------Total Time Permute: 1.536877172910
+|I0128 13:27:48.656989 32473 caffe.cpp:466] --------Total Time ShuffleChannel: 0
+|I0128 13:27:48.656996 32473 caffe.cpp:467] --------Total Time ConvolutionDepthwise: 0.8519497172910
+|I0128 13:27:48.657001 32473 caffe.cpp:468] --------Total Time Split: 0.02986247172910
+|I0128 13:27:48.657007 32473 caffe.cpp:469] --------Total Time Eltwise: 1.660027172910
+|I0128 13:27:48.657013 32473 caffe.cpp:470] --------Total Time FullyConnected: 0.05816967172910
+|I0128 13:27:48.657019 32473 caffe.cpp:471] --------Total Time SoftMax: 0.01597127172910
+|I0128 13:27:48.657024 32473 caffe.cpp:475] Average Forward pass: 26.9364 ms.
+|I0128 13:27:48.657032 32473 caffe.cpp:477] Average Backward pass: 57.718 ms.
 
 shufflenet_0.25×_g3 input = 1*224*224
 +-------------------------------+----------------------+----------------------+

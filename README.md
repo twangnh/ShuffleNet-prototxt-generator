@@ -7,13 +7,13 @@ farmingyard's implementation(https://github.com/farmingyard/ShuffleNet) of shuff
 Test on TiTan X Pascal
 
 shufflenet_0.25×_g3
-![shufflenet_0.25×_g3](https://github.com/MrWanter/Efficient-ShuffleNet/blob/master/image/shufflenet_0.25x_g3.png)
+![](https://github.com/MrWanter/Efficient-ShuffleNet/blob/master/image/shufflenet_0.25x_g3.png)
 shufflenet_0.5×_g3
-![shufflenet_0.25×_g3](https://github.com/MrWanter/Efficient-ShuffleNet/blob/master/image/shufflenet_0.5x_g3.png)
+![](https://github.com/MrWanter/Efficient-ShuffleNet/blob/master/image/shufflenet_0.5x_g3.png)
 shufflenet_1×_g3
-![shufflenet_1×_g3](https://github.com/MrWanter/Efficient-ShuffleNet/blob/master/image/shufflenet_1x_g3.png)
+![](https://github.com/MrWanter/Efficient-ShuffleNet/blob/master/image/shufflenet_1x_g3.png)
 shufflenet_0.25×_g3
-![shufflenet_2×_g3](https://github.com/MrWanter/Efficient-ShuffleNet/blob/master/image/shufflenet_2x_g3.png)
+![](https://github.com/MrWanter/Efficient-ShuffleNet/blob/master/image/shufflenet_2x_g3.png)
 
 # Steps to Use
 if you don't have permute layer yet, then put `permute_layer.hpp` into `CAFFE_ROOT/include/caffe/layers/`, put `permute_layer.cpp` and `permute_layer.cu` into `CAFFE_ROOT/src/caffe/layers/`
